@@ -1,1 +1,4 @@
 DataCollection/data/input/autoru.parquet
+DataCollection/__pycache__
+Modeling/__pycache__
+Modeling/catboost_info
