@@ -1,0 +1,343 @@
+2026-03-29 15:06:09.048 | INFO     | Models:train_test_split:30 - Class: Catboost | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-29 15:06:35.772 | INFO     | Models:get_metrics:46 - Class: Catboost | RMSE train: 243177.7992
+2026-03-29 15:06:35.773 | INFO     | Models:get_metrics:47 - Class: Catboost | RMSE test: 267125.8909
+2026-03-29 15:06:35.773 | INFO     | Models:get_metrics:48 - Class: Catboost | MAPE train: 16.2186
+2026-03-29 15:06:35.774 | INFO     | Models:get_metrics:49 - Class: Catboost | MAPE train: 15.9915
+2026-03-29 15:08:46.297 | INFO     | Models:train_test_split:30 - Class: Catboost | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-29 15:09:02.528 | INFO     | Models:train_test_split:30 - Class: Catboost | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-29 15:09:25.271 | INFO     | Models:get_metrics:46 - Class: Catboost | RMSE train: 243177.7992
+2026-03-29 15:09:25.271 | INFO     | Models:get_metrics:47 - Class: Catboost | RMSE test: 267125.8909
+2026-03-29 15:09:25.271 | INFO     | Models:get_metrics:48 - Class: Catboost | MAPE train: 16.2186
+2026-03-29 15:09:25.271 | INFO     | Models:get_metrics:49 - Class: Catboost | MAPE train: 15.9915
+2026-03-29 15:14:43.563 | INFO     | Models:train_test_split:30 - Class: Catboost | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-29 15:15:00.021 | INFO     | Models:train_test_split:30 - Class: Catboost | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-29 15:15:00.021 | INFO     | Models:__log_hyperparmeters__:53 - Class: Catboost | hyperparams: {'iterations': 500, 'depth': 5, 'verbose': 100}
+2026-03-29 15:15:17.327 | INFO     | Models:get_metrics:46 - Class: Catboost | RMSE train: 243177.7992
+2026-03-29 15:15:17.327 | INFO     | Models:get_metrics:47 - Class: Catboost | RMSE test: 267125.8909
+2026-03-29 15:15:17.327 | INFO     | Models:get_metrics:48 - Class: Catboost | MAPE train: 16.2186
+2026-03-29 15:15:17.327 | INFO     | Models:get_metrics:49 - Class: Catboost | MAPE train: 15.9915
+2026-03-29 15:37:50.278 | INFO     | Models:train_test_split:32 - Class: Catboost | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-29 15:37:50.281 | INFO     | Models:__log_hyperparmeters__:55 - Class: Catboost | hyperparams: {'iterations': 500, 'depth': 5, 'verbose': 100}
+2026-03-29 15:38:08.999 | INFO     | Models:get_metrics:48 - Class: Catboost | RMSE train: 243177.7992
+2026-03-29 15:38:08.999 | INFO     | Models:get_metrics:49 - Class: Catboost | RMSE test: 267125.8909
+2026-03-29 15:38:08.999 | INFO     | Models:get_metrics:50 - Class: Catboost | MAPE train: 16.2186
+2026-03-29 15:38:08.999 | INFO     | Models:get_metrics:51 - Class: Catboost | MAPE train: 15.9915
+2026-03-29 16:51:02.317 | INFO     | Models:train_test_split:34 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-29 16:51:02.318 | INFO     | Models:__log_hyperparmeters__:57 - Class: MLPNet | hyperparams: {'epochs': 500, 'lr': 0.01, 'verbose': 100}
+2026-03-29 16:57:44.329 | INFO     | Models:train_test_split:39 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-29 16:57:44.329 | INFO     | Models:__log_hyperparmeters__:62 - Class: MLPNet | hyperparams: {'epochs': 500, 'lr': 0.01, 'verbose': 100}
+2026-03-29 17:00:17.569 | INFO     | Models:train_test_split:39 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-29 17:00:17.569 | INFO     | Models:__log_hyperparmeters__:62 - Class: MLPNet | hyperparams: {'epochs': 500, 'lr': 0.01, 'verbose': 100}
+2026-03-29 17:01:05.766 | INFO     | Models:train_test_split:39 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-29 17:01:05.766 | INFO     | Models:__log_hyperparmeters__:62 - Class: MLPNet | hyperparams: {'epochs': 500, 'lr': 0.01, 'verbose': 100}
+2026-03-29 17:02:36.102 | INFO     | Models:train_test_split:39 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-29 17:02:36.104 | INFO     | Models:__log_hyperparmeters__:62 - Class: MLPNet | hyperparams: {'epochs': 500, 'lr': 0.01, 'verbose': 100}
+2026-03-29 17:02:56.988 | INFO     | Models:train_test_split:39 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-29 17:02:56.988 | INFO     | Models:__log_hyperparmeters__:62 - Class: MLPNet | hyperparams: {'epochs': 500, 'lr': 0.01, 'verbose': 100}
+2026-03-29 17:03:06.711 | INFO     | Models:train_test_split:39 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-29 17:03:06.711 | INFO     | Models:__log_hyperparmeters__:62 - Class: MLPNet | hyperparams: {'epochs': 500, 'lr': 0.01, 'verbose': 100}
+2026-03-29 17:03:21.637 | INFO     | Models:train_test_split:39 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-29 17:03:21.637 | INFO     | Models:__log_hyperparmeters__:62 - Class: MLPNet | hyperparams: {'epochs': 500, 'lr': 0.01, 'verbose': 100}
+2026-03-29 17:05:02.530 | INFO     | Models:train_test_split:39 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-29 17:05:02.530 | INFO     | Models:__log_hyperparmeters__:62 - Class: MLPNet | hyperparams: {'epochs': 500, 'lr': 0.001, 'verbose': 100}
+2026-03-29 17:06:00.991 | INFO     | Models:train_test_split:39 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-29 17:06:00.991 | INFO     | Models:__log_hyperparmeters__:62 - Class: MLPNet | hyperparams: {'epochs': 500, 'lr': 0.001, 'verbose': 100}
+2026-03-29 17:06:44.922 | INFO     | Models:train_test_split:39 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-29 17:06:44.922 | INFO     | Models:__log_hyperparmeters__:62 - Class: MLPNet | hyperparams: {'epochs': 100, 'lr': 0.001, 'verbose': 100}
+2026-03-29 17:10:14.232 | INFO     | Models:train_test_split:40 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-29 17:10:14.247 | INFO     | Models:__log_hyperparmeters__:63 - Class: MLPNet | hyperparams: {'epochs': 100, 'lr': 0.001, 'verbose': 100}
+2026-03-29 17:11:31.128 | INFO     | Models:train_test_split:40 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-29 17:11:31.135 | INFO     | Models:__log_hyperparmeters__:63 - Class: MLPNet | hyperparams: {'epochs': 100, 'lr': 0.001, 'verbose': 100}
+2026-03-29 17:11:51.276 | INFO     | Models:train_test_split:40 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-29 17:11:51.289 | INFO     | Models:__log_hyperparmeters__:63 - Class: MLPNet | hyperparams: {'epochs': 100, 'lr': 0.001, 'verbose': 100}
+2026-03-29 17:12:02.237 | INFO     | Models:train_test_split:40 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-29 17:12:02.247 | INFO     | Models:__log_hyperparmeters__:63 - Class: MLPNet | hyperparams: {'epochs': 100, 'lr': 0.0001, 'verbose': 100}
+2026-03-29 17:14:39.458 | INFO     | Models:train_test_split:40 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-29 17:14:54.416 | INFO     | Models:train_test_split:40 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-29 17:14:54.425 | INFO     | Models:__log_hyperparmeters__:63 - Class: MLPNet | hyperparams: {'epochs': 100, 'lr': 0.0001, 'verbose': 100}
+2026-03-29 17:17:52.736 | INFO     | Models:train_test_split:40 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-29 17:17:52.743 | INFO     | Models:__log_hyperparmeters__:63 - Class: MLPNet | hyperparams: {'epochs': 100, 'lr': 0.0001, 'verbose': 100}
+2026-03-29 17:18:39.000 | INFO     | Models:train_test_split:40 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-29 17:18:39.010 | INFO     | Models:__log_hyperparmeters__:63 - Class: MLPNet | hyperparams: {'epochs': 100, 'lr': 0.0001, 'verbose': 100}
+2026-03-29 17:19:36.986 | INFO     | Models:train_test_split:41 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-29 17:19:36.993 | INFO     | Models:__log_hyperparmeters__:64 - Class: MLPNet | hyperparams: {'epochs': 100, 'lr': 0.0001, 'verbose': 100}
+2026-03-29 17:20:32.727 | INFO     | Models:train_test_split:41 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-29 17:20:32.730 | INFO     | Models:__log_hyperparmeters__:64 - Class: MLPNet | hyperparams: {'epochs': 100, 'lr': 0.0001, 'verbose': 100}
+2026-03-29 17:21:09.473 | INFO     | Models:train_test_split:41 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-29 17:21:09.481 | INFO     | Models:__log_hyperparmeters__:64 - Class: MLPNet | hyperparams: {'epochs': 100, 'lr': 0.0001, 'verbose': 100}
+2026-03-29 17:24:59.526 | INFO     | Models:train_test_split:41 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-29 17:24:59.535 | INFO     | Models:__log_hyperparmeters__:64 - Class: MLPNet | hyperparams: {'epochs': 100, 'lr': 0.0001, 'verbose': 100}
+2026-03-29 17:25:40.795 | INFO     | Models:train_test_split:41 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-29 17:25:40.803 | INFO     | Models:__log_hyperparmeters__:64 - Class: MLPNet | hyperparams: {'epochs': 100, 'lr': 0.0001, 'verbose': 100}
+2026-03-29 17:25:55.256 | INFO     | Models:train_test_split:41 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-29 17:25:55.262 | INFO     | Models:__log_hyperparmeters__:64 - Class: MLPNet | hyperparams: {'epochs': 100, 'lr': 0.0001, 'verbose': 100}
+2026-03-29 17:30:34.545 | INFO     | Models:train_test_split:41 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-29 17:30:34.553 | INFO     | Models:__log_hyperparmeters__:64 - Class: MLPNet | hyperparams: {'epochs': 100, 'lr': 0.0001, 'verbose': 100}
+2026-03-29 17:34:17.887 | INFO     | Models:train_test_split:41 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-29 17:34:17.895 | INFO     | Models:__log_hyperparmeters__:64 - Class: MLPNet | hyperparams: {'epochs': 100, 'lr': 0.0001, 'verbose': 100}
+2026-03-29 17:35:25.175 | INFO     | Models:train_test_split:41 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-29 17:35:25.186 | INFO     | Models:__log_hyperparmeters__:64 - Class: MLPNet | hyperparams: {'epochs': 100, 'lr': 0.0001, 'verbose': 100}
+2026-03-29 17:36:15.567 | INFO     | Models:train_test_split:41 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-29 17:36:15.575 | INFO     | Models:__log_hyperparmeters__:64 - Class: MLPNet | hyperparams: {'epochs': 100, 'lr': 0.0001, 'verbose': 100}
+2026-03-29 17:36:49.547 | INFO     | Models:train_test_split:41 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-29 17:36:49.556 | INFO     | Models:__log_hyperparmeters__:64 - Class: MLPNet | hyperparams: {'epochs': 100, 'lr': 0.0001, 'verbose': 100}
+2026-03-29 17:37:17.786 | INFO     | Models:train_test_split:41 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-29 17:37:17.786 | INFO     | Models:__log_hyperparmeters__:64 - Class: MLPNet | hyperparams: {'epochs': 100, 'lr': 0.0001, 'verbose': 100}
+2026-03-29 17:38:15.917 | INFO     | Models:train_test_split:41 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-29 17:38:15.931 | INFO     | Models:__log_hyperparmeters__:64 - Class: MLPNet | hyperparams: {'epochs': 100, 'lr': 0.0001, 'verbose': 100}
+2026-03-29 17:38:41.841 | INFO     | Models:train_test_split:41 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-29 17:38:47.136 | INFO     | Models:train_test_split:41 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-29 17:39:04.410 | INFO     | Models:train_test_split:41 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-29 17:39:04.423 | INFO     | Models:__log_hyperparmeters__:64 - Class: MLPNet | hyperparams: {'epochs': 100, 'lr': 0.0001, 'verbose': 100}
+2026-03-29 17:39:05.800 | INFO     | Models:get_metrics:197 - Class: MLPNet | RMSE train: 1.1734
+2026-03-29 17:39:05.800 | INFO     | Models:get_metrics:198 - Class: MLPNet | RMSE test: 1.1341
+2026-03-29 17:39:05.802 | INFO     | Models:get_metrics:199 - Class: MLPNet | MAPE train: 427.1690
+2026-03-29 17:39:05.802 | INFO     | Models:get_metrics:200 - Class: MLPNet | MAPE train: 421.6380
+2026-03-29 17:41:30.941 | INFO     | Models:train_test_split:41 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-29 17:41:30.952 | INFO     | Models:__log_hyperparmeters__:64 - Class: MLPNet | hyperparams: {'epochs': 100, 'lr': 0.0001, 'verbose': 100}
+2026-03-29 17:42:43.823 | INFO     | Models:train_test_split:41 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-29 17:42:43.831 | INFO     | Models:__log_hyperparmeters__:64 - Class: MLPNet | hyperparams: {'epochs': 100, 'lr': 0.0001, 'verbose': 100}
+2026-03-29 17:43:15.119 | INFO     | Models:train_test_split:41 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-29 17:43:15.128 | INFO     | Models:__log_hyperparmeters__:64 - Class: MLPNet | hyperparams: {'epochs': 100, 'lr': 0.0001, 'verbose': 100}
+2026-03-29 17:44:02.814 | INFO     | Models:train_test_split:41 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-29 17:44:02.823 | INFO     | Models:__log_hyperparmeters__:64 - Class: MLPNet | hyperparams: {'epochs': 100, 'lr': 0.0001, 'verbose': 100}
+2026-03-29 17:44:19.877 | INFO     | Models:train_test_split:41 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-29 17:44:19.884 | INFO     | Models:__log_hyperparmeters__:64 - Class: MLPNet | hyperparams: {'epochs': 100, 'lr': 0.0001, 'verbose': 100}
+2026-03-29 17:44:21.285 | INFO     | Models:get_metrics:208 - Class: MLPNet | RMSE train: 1632549.5253
+2026-03-29 17:44:21.286 | INFO     | Models:get_metrics:209 - Class: MLPNet | RMSE test: 1624349.5288
+2026-03-29 17:44:21.286 | INFO     | Models:get_metrics:210 - Class: MLPNet | MAPE train: 105.8334
+2026-03-29 17:44:21.286 | INFO     | Models:get_metrics:211 - Class: MLPNet | MAPE train: 107.0823
+2026-03-29 17:45:03.966 | INFO     | Models:train_test_split:41 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-29 17:45:03.977 | INFO     | Models:__log_hyperparmeters__:64 - Class: MLPNet | hyperparams: {'epochs': 1000, 'lr': 0.001, 'verbose': 100}
+2026-03-29 17:45:06.454 | INFO     | Models:get_metrics:208 - Class: MLPNet | RMSE train: 424619.7709
+2026-03-29 17:45:06.455 | INFO     | Models:get_metrics:209 - Class: MLPNet | RMSE test: 401453.8654
+2026-03-29 17:45:06.455 | INFO     | Models:get_metrics:210 - Class: MLPNet | MAPE train: 29.7258
+2026-03-29 17:45:06.455 | INFO     | Models:get_metrics:211 - Class: MLPNet | MAPE train: 28.6496
+2026-03-29 17:46:10.875 | INFO     | Models:train_test_split:41 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-29 17:46:10.877 | INFO     | Models:__log_hyperparmeters__:64 - Class: MLPNet | hyperparams: {'epochs': 1000, 'lr': 0.001, 'verbose': 100}
+2026-03-29 17:46:13.443 | INFO     | Models:get_metrics:208 - Class: MLPNet | RMSE train: 471734.2724
+2026-03-29 17:46:13.443 | INFO     | Models:get_metrics:209 - Class: MLPNet | RMSE test: 437757.4426
+2026-03-29 17:46:13.443 | INFO     | Models:get_metrics:210 - Class: MLPNet | MAPE train: 31.5012
+2026-03-29 17:46:13.443 | INFO     | Models:get_metrics:211 - Class: MLPNet | MAPE train: 30.9437
+2026-03-29 17:46:31.728 | INFO     | Models:train_test_split:41 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-29 17:46:31.738 | INFO     | Models:__log_hyperparmeters__:64 - Class: MLPNet | hyperparams: {'epochs': 1000, 'lr': 0.001, 'verbose': 100}
+2026-03-29 17:46:34.278 | INFO     | Models:get_metrics:208 - Class: MLPNet | RMSE train: 445197.7747
+2026-03-29 17:46:34.278 | INFO     | Models:get_metrics:209 - Class: MLPNet | RMSE test: 419042.6909
+2026-03-29 17:46:34.278 | INFO     | Models:get_metrics:210 - Class: MLPNet | MAPE train: 28.2126
+2026-03-29 17:46:34.280 | INFO     | Models:get_metrics:211 - Class: MLPNet | MAPE train: 27.3376
+2026-03-29 17:46:51.698 | INFO     | Models:train_test_split:41 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-29 17:46:51.708 | INFO     | Models:__log_hyperparmeters__:64 - Class: MLPNet | hyperparams: {'epochs': 1000, 'lr': 0.01, 'verbose': 100}
+2026-03-29 17:46:54.041 | INFO     | Models:get_metrics:208 - Class: MLPNet | RMSE train: 344666.0769
+2026-03-29 17:46:54.042 | INFO     | Models:get_metrics:209 - Class: MLPNet | RMSE test: 365623.7392
+2026-03-29 17:46:54.043 | INFO     | Models:get_metrics:210 - Class: MLPNet | MAPE train: 23.3621
+2026-03-29 17:46:54.043 | INFO     | Models:get_metrics:211 - Class: MLPNet | MAPE train: 23.0793
+2026-03-29 17:47:06.090 | INFO     | Models:train_test_split:41 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-29 17:47:06.097 | INFO     | Models:__log_hyperparmeters__:64 - Class: MLPNet | hyperparams: {'epochs': 1000, 'lr': 0.05, 'verbose': 100}
+2026-03-29 17:47:08.426 | INFO     | Models:get_metrics:208 - Class: MLPNet | RMSE train: 335086.6288
+2026-03-29 17:47:08.426 | INFO     | Models:get_metrics:209 - Class: MLPNet | RMSE test: 359382.3975
+2026-03-29 17:47:08.426 | INFO     | Models:get_metrics:210 - Class: MLPNet | MAPE train: 24.5997
+2026-03-29 17:47:08.426 | INFO     | Models:get_metrics:211 - Class: MLPNet | MAPE train: 23.4375
+2026-03-29 17:47:26.014 | INFO     | Models:train_test_split:41 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-29 17:47:26.021 | INFO     | Models:__log_hyperparmeters__:64 - Class: MLPNet | hyperparams: {'epochs': 10000, 'lr': 0.01, 'verbose': 100}
+2026-03-29 17:47:37.526 | INFO     | Models:get_metrics:208 - Class: MLPNet | RMSE train: 300474.2230
+2026-03-29 17:47:37.526 | INFO     | Models:get_metrics:209 - Class: MLPNet | RMSE test: 336812.3327
+2026-03-29 17:47:37.526 | INFO     | Models:get_metrics:210 - Class: MLPNet | MAPE train: 20.7318
+2026-03-29 17:47:37.526 | INFO     | Models:get_metrics:211 - Class: MLPNet | MAPE train: 20.6521
+2026-03-29 17:47:52.737 | INFO     | Models:train_test_split:41 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-29 17:47:52.747 | INFO     | Models:__log_hyperparmeters__:64 - Class: MLPNet | hyperparams: {'epochs': 10000, 'lr': 0.1, 'verbose': 100}
+2026-03-29 17:48:04.619 | INFO     | Models:get_metrics:208 - Class: MLPNet | RMSE train: 298493.3141
+2026-03-29 17:48:04.619 | INFO     | Models:get_metrics:209 - Class: MLPNet | RMSE test: 339563.2463
+2026-03-29 17:48:04.619 | INFO     | Models:get_metrics:210 - Class: MLPNet | MAPE train: 23.5520
+2026-03-29 17:48:04.619 | INFO     | Models:get_metrics:211 - Class: MLPNet | MAPE train: 23.8036
+2026-03-29 17:48:17.047 | INFO     | Models:train_test_split:41 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-29 17:48:17.056 | INFO     | Models:__log_hyperparmeters__:64 - Class: MLPNet | hyperparams: {'epochs': 10000, 'lr': 0.01, 'verbose': 100}
+2026-03-29 17:48:28.701 | INFO     | Models:get_metrics:208 - Class: MLPNet | RMSE train: 317673.8046
+2026-03-29 17:48:28.701 | INFO     | Models:get_metrics:209 - Class: MLPNet | RMSE test: 365607.0859
+2026-03-29 17:48:28.701 | INFO     | Models:get_metrics:210 - Class: MLPNet | MAPE train: 22.0723
+2026-03-29 17:48:28.701 | INFO     | Models:get_metrics:211 - Class: MLPNet | MAPE train: 22.0575
+2026-03-30 19:41:17.734 | INFO     | Models:train_test_split:40 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-30 19:41:17.744 | INFO     | Models:__log_hyperparmeters__:63 - Class: MLPNet | hyperparams: {'epochs': 10000, 'lr': 0.01, 'verbose': 100}
+2026-03-30 19:41:17.778 | INFO     | Models:get_metrics:141 - Class: MLPNet | RMSE train: 3001353.0889
+2026-03-30 19:41:17.778 | INFO     | Models:get_metrics:142 - Class: MLPNet | RMSE test: 3525261.2544
+2026-03-30 19:41:17.780 | INFO     | Models:get_metrics:143 - Class: MLPNet | MAPE train: 94.8668
+2026-03-30 19:41:17.780 | INFO     | Models:get_metrics:144 - Class: MLPNet | MAPE train: 96.6073
+2026-03-30 19:43:51.234 | INFO     | Models:train_test_split:40 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-30 19:43:51.244 | INFO     | Models:__log_hyperparmeters__:63 - Class: MLPNet | hyperparams: {'epochs': 10000, 'lr': 0.01, 'verbose': 100}
+2026-03-30 19:43:51.259 | INFO     | Models:get_metrics:137 - Class: MLPNet | RMSE train: 2754355.9170
+2026-03-30 19:43:51.261 | INFO     | Models:get_metrics:138 - Class: MLPNet | RMSE test: 2831024.6542
+2026-03-30 19:43:51.261 | INFO     | Models:get_metrics:139 - Class: MLPNet | MAPE train: 138.4892
+2026-03-30 19:43:51.261 | INFO     | Models:get_metrics:140 - Class: MLPNet | MAPE train: 134.2942
+2026-03-30 19:44:10.393 | INFO     | Models:train_test_split:40 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-30 19:44:10.404 | INFO     | Models:__log_hyperparmeters__:63 - Class: MLPNet | hyperparams: {'epochs': 10000, 'lr': 0.01, 'verbose': 100}
+2026-03-30 19:44:10.418 | INFO     | Models:get_metrics:137 - Class: MLPNet | RMSE train: 1335447.4095
+2026-03-30 19:44:10.420 | INFO     | Models:get_metrics:138 - Class: MLPNet | RMSE test: 1340586.1269
+2026-03-30 19:44:10.420 | INFO     | Models:get_metrics:139 - Class: MLPNet | MAPE train: 143.1958
+2026-03-30 19:44:10.420 | INFO     | Models:get_metrics:140 - Class: MLPNet | MAPE train: 138.0610
+2026-03-30 19:46:39.615 | INFO     | Models:train_test_split:40 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-30 19:46:39.621 | INFO     | Models:__log_hyperparmeters__:63 - Class: MLPNet | hyperparams: {'epochs': 10000, 'lr': 0.01, 'verbose': 100}
+2026-03-30 19:46:39.636 | INFO     | Models:get_metrics:137 - Class: MLPNet | RMSE train: 1594149.7546
+2026-03-30 19:46:39.636 | INFO     | Models:get_metrics:138 - Class: MLPNet | RMSE test: 1559207.4638
+2026-03-30 19:46:39.636 | INFO     | Models:get_metrics:139 - Class: MLPNet | MAPE train: 241.3694
+2026-03-30 19:46:39.636 | INFO     | Models:get_metrics:140 - Class: MLPNet | MAPE train: 240.0878
+2026-03-30 19:47:15.109 | INFO     | Models:train_test_split:40 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-30 19:47:15.118 | INFO     | Models:__log_hyperparmeters__:63 - Class: MLPNet | hyperparams: {'epochs': 10000, 'lr': 0.01, 'verbose': 100}
+2026-03-30 19:47:15.139 | INFO     | Models:get_metrics:137 - Class: MLPNet | RMSE train: 2291922.0071
+2026-03-30 19:47:15.141 | INFO     | Models:get_metrics:138 - Class: MLPNet | RMSE test: 2485479.6363
+2026-03-30 19:47:15.141 | INFO     | Models:get_metrics:139 - Class: MLPNet | MAPE train: 144.6215
+2026-03-30 19:47:15.141 | INFO     | Models:get_metrics:140 - Class: MLPNet | MAPE train: 147.3018
+2026-03-30 19:48:53.074 | INFO     | Models:train_test_split:52 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-30 19:48:53.085 | INFO     | Models:__log_hyperparmeters__:75 - Class: MLPNet | hyperparams: {'epochs': 10000, 'lr': 0.01, 'verbose': 100}
+2026-03-30 19:48:53.104 | INFO     | Models:get_metrics:148 - Class: MLPNet | RMSE train: 1222493.6993
+2026-03-30 19:48:53.104 | INFO     | Models:get_metrics:149 - Class: MLPNet | RMSE test: 1182108.5490
+2026-03-30 19:48:53.104 | INFO     | Models:get_metrics:150 - Class: MLPNet | MAPE train: 117.1105
+2026-03-30 19:48:53.104 | INFO     | Models:get_metrics:151 - Class: MLPNet | MAPE train: 114.5484
+2026-03-30 19:49:55.235 | INFO     | Models:train_test_split:52 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-30 19:49:55.249 | INFO     | Models:__log_hyperparmeters__:75 - Class: MLPNet | hyperparams: {'epochs': 10000, 'lr': 0.01, 'verbose': 100}
+2026-03-30 19:49:55.262 | INFO     | Models:get_metrics:148 - Class: MLPNet | RMSE train: 1483926.7927
+2026-03-30 19:49:55.262 | INFO     | Models:get_metrics:149 - Class: MLPNet | RMSE test: 1466525.9204
+2026-03-30 19:49:55.262 | INFO     | Models:get_metrics:150 - Class: MLPNet | MAPE train: 186.7066
+2026-03-30 19:49:55.264 | INFO     | Models:get_metrics:151 - Class: MLPNet | MAPE train: 190.7381
+2026-03-30 19:52:12.010 | INFO     | Models:train_test_split:52 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-30 19:52:12.022 | INFO     | Models:__log_hyperparmeters__:75 - Class: MLPNet | hyperparams: {'epochs': 10000, 'lr': 0.01, 'verbose': 100}
+2026-03-30 19:52:12.040 | INFO     | Models:get_metrics:148 - Class: MLPNet | RMSE train: 2075741.5840
+2026-03-30 19:52:12.040 | INFO     | Models:get_metrics:149 - Class: MLPNet | RMSE test: 2349909.1043
+2026-03-30 19:52:12.040 | INFO     | Models:get_metrics:150 - Class: MLPNet | MAPE train: 124.0189
+2026-03-30 19:52:12.040 | INFO     | Models:get_metrics:151 - Class: MLPNet | MAPE train: 120.9690
+2026-03-30 19:53:35.035 | INFO     | Models:train_test_split:52 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-30 19:53:35.042 | INFO     | Models:__log_hyperparmeters__:75 - Class: MLPNet | hyperparams: {'epochs': 10000, 'lr': 0.01, 'verbose': 100}
+2026-03-30 19:54:00.667 | INFO     | Models:get_metrics:148 - Class: MLPNet | RMSE train: 267154.9889
+2026-03-30 19:54:00.667 | INFO     | Models:get_metrics:149 - Class: MLPNet | RMSE test: 323181.9189
+2026-03-30 19:54:00.669 | INFO     | Models:get_metrics:150 - Class: MLPNet | MAPE train: 18.1056
+2026-03-30 19:54:00.669 | INFO     | Models:get_metrics:151 - Class: MLPNet | MAPE train: 19.7444
+2026-03-30 20:01:12.823 | INFO     | Models:train_test_split:52 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-30 20:01:12.835 | INFO     | Models:__log_hyperparmeters__:75 - Class: MLPNet | hyperparams: {'epochs': 10000, 'lr': 0.01, 'verbose': 100}
+2026-03-30 20:03:41.384 | INFO     | Models:train_test_split:52 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-30 20:03:41.397 | INFO     | Models:__log_hyperparmeters__:75 - Class: MLPNet | hyperparams: {'epochs': 10000, 'lr': 0.01, 'verbose': 100}
+2026-03-30 20:04:55.896 | INFO     | Models:train_test_split:52 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-30 20:04:55.914 | INFO     | Models:__log_hyperparmeters__:75 - Class: MLPNet | hyperparams: {'epochs': 10000, 'lr': 0.01, 'verbose': 100}
+2026-03-30 20:05:41.067 | INFO     | Models:train_test_split:52 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-30 20:05:41.067 | INFO     | Models:__log_hyperparmeters__:75 - Class: MLPNet | hyperparams: {'epochs': 10000, 'lr': 0.01, 'verbose': 100}
+2026-03-30 20:06:13.901 | INFO     | Models:train_test_split:52 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-30 20:06:13.913 | INFO     | Models:__log_hyperparmeters__:75 - Class: MLPNet | hyperparams: {'epochs': 10000, 'lr': 0.01, 'verbose': 100}
+2026-03-30 20:06:41.493 | INFO     | Models:train_test_split:52 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-30 20:06:41.499 | INFO     | Models:__log_hyperparmeters__:75 - Class: MLPNet | hyperparams: {'epochs': 10000, 'lr': 0.01, 'verbose': 100}
+2026-03-30 20:07:05.365 | INFO     | Models:train_test_split:52 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-30 20:07:05.377 | INFO     | Models:__log_hyperparmeters__:75 - Class: MLPNet | hyperparams: {'epochs': 10000, 'lr': 0.01, 'verbose': 100}
+2026-03-30 20:07:22.235 | INFO     | Models:train_test_split:52 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-30 20:07:22.243 | INFO     | Models:__log_hyperparmeters__:75 - Class: MLPNet | hyperparams: {'epochs': 10000, 'lr': 0.01, 'verbose': 100}
+2026-03-30 20:08:52.663 | INFO     | Models:train_test_split:52 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-30 20:08:52.672 | INFO     | Models:__log_hyperparmeters__:75 - Class: MLPNet | hyperparams: {'epochs': 1000, 'lr': 0.01, 'verbose': 100}
+2026-03-30 20:10:42.523 | INFO     | Models:train_test_split:52 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-30 20:10:42.529 | INFO     | Models:__log_hyperparmeters__:75 - Class: MLPNet | hyperparams: {'epochs': 100, 'lr': 0.01, 'verbose': 100}
+2026-03-30 20:11:07.210 | INFO     | Models:train_test_split:52 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-30 20:11:07.218 | INFO     | Models:__log_hyperparmeters__:75 - Class: MLPNet | hyperparams: {'epochs': 100, 'lr': 0.01, 'verbose': 100}
+2026-03-30 20:11:56.987 | INFO     | Models:train_test_split:52 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-30 20:11:56.995 | INFO     | Models:__log_hyperparmeters__:75 - Class: MLPNet | hyperparams: {'epochs': 100, 'lr': 0.01, 'verbose': 100}
+2026-03-30 20:12:16.299 | INFO     | Models:train_test_split:52 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-30 20:12:16.307 | INFO     | Models:__log_hyperparmeters__:75 - Class: MLPNet | hyperparams: {'epochs': 100, 'lr': 0.01, 'verbose': 100}
+2026-03-30 20:12:33.796 | INFO     | Models:train_test_split:52 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-30 20:12:33.806 | INFO     | Models:__log_hyperparmeters__:75 - Class: MLPNet | hyperparams: {'epochs': 100, 'lr': 0.01, 'verbose': 100}
+2026-03-30 20:12:35.182 | INFO     | Models:get_metrics:155 - Class: MLPNet | RMSE train: 422920.4197
+2026-03-30 20:12:35.182 | INFO     | Models:get_metrics:156 - Class: MLPNet | RMSE test: 395192.1108
+2026-03-30 20:12:35.184 | INFO     | Models:get_metrics:157 - Class: MLPNet | MAPE train: 25.9021
+2026-03-30 20:12:35.184 | INFO     | Models:get_metrics:158 - Class: MLPNet | MAPE train: 25.3426
+2026-03-30 20:12:56.552 | INFO     | Models:train_test_split:52 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-30 20:12:56.560 | INFO     | Models:__log_hyperparmeters__:75 - Class: MLPNet | hyperparams: {'epochs': 100, 'lr': 0.01, 'verbose': 100}
+2026-03-30 20:12:57.860 | INFO     | Models:get_metrics:151 - Class: MLPNet | RMSE train: 425509.3683
+2026-03-30 20:12:57.862 | INFO     | Models:get_metrics:152 - Class: MLPNet | RMSE test: 399537.8435
+2026-03-30 20:12:57.862 | INFO     | Models:get_metrics:153 - Class: MLPNet | MAPE train: 26.0024
+2026-03-30 20:12:57.862 | INFO     | Models:get_metrics:154 - Class: MLPNet | MAPE train: 25.4989
+2026-03-30 20:13:11.792 | INFO     | Models:train_test_split:52 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-30 20:13:11.801 | INFO     | Models:__log_hyperparmeters__:75 - Class: MLPNet | hyperparams: {'epochs': 1000, 'lr': 0.01, 'verbose': 100}
+2026-03-30 20:13:14.491 | INFO     | Models:get_metrics:151 - Class: MLPNet | RMSE train: 320806.5349
+2026-03-30 20:13:14.493 | INFO     | Models:get_metrics:152 - Class: MLPNet | RMSE test: 351002.3118
+2026-03-30 20:13:14.493 | INFO     | Models:get_metrics:153 - Class: MLPNet | MAPE train: 20.1698
+2026-03-30 20:13:14.493 | INFO     | Models:get_metrics:154 - Class: MLPNet | MAPE train: 20.6067
+2026-03-30 20:13:37.040 | INFO     | Models:train_test_split:52 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-30 20:13:37.043 | INFO     | Models:__log_hyperparmeters__:75 - Class: MLPNet | hyperparams: {'epochs': 1000, 'lr': 0.01, 'verbose': 100}
+2026-03-30 20:13:39.620 | INFO     | Models:get_metrics:151 - Class: MLPNet | RMSE train: 302771.6850
+2026-03-30 20:13:39.620 | INFO     | Models:get_metrics:152 - Class: MLPNet | RMSE test: 340899.4711
+2026-03-30 20:13:39.621 | INFO     | Models:get_metrics:153 - Class: MLPNet | MAPE train: 18.9730
+2026-03-30 20:13:39.621 | INFO     | Models:get_metrics:154 - Class: MLPNet | MAPE train: 19.5357
+2026-03-30 20:13:50.319 | INFO     | Models:train_test_split:52 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-30 20:13:50.333 | INFO     | Models:__log_hyperparmeters__:75 - Class: MLPNet | hyperparams: {'epochs': 1000, 'lr': 0.01, 'verbose': 100}
+2026-03-30 20:13:54.149 | INFO     | Models:get_metrics:151 - Class: MLPNet | RMSE train: 264489.3052
+2026-03-30 20:13:54.149 | INFO     | Models:get_metrics:152 - Class: MLPNet | RMSE test: 305168.7522
+2026-03-30 20:13:54.149 | INFO     | Models:get_metrics:153 - Class: MLPNet | MAPE train: 17.5350
+2026-03-30 20:13:54.150 | INFO     | Models:get_metrics:154 - Class: MLPNet | MAPE train: 18.4524
+2026-03-30 20:14:06.310 | INFO     | Models:train_test_split:52 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-30 20:14:06.320 | INFO     | Models:__log_hyperparmeters__:75 - Class: MLPNet | hyperparams: {'epochs': 1000, 'lr': 0.01, 'verbose': 100}
+2026-03-30 20:14:11.240 | INFO     | Models:get_metrics:151 - Class: MLPNet | RMSE train: 261934.5446
+2026-03-30 20:14:11.240 | INFO     | Models:get_metrics:152 - Class: MLPNet | RMSE test: 330997.0532
+2026-03-30 20:14:11.240 | INFO     | Models:get_metrics:153 - Class: MLPNet | MAPE train: 20.5377
+2026-03-30 20:14:11.240 | INFO     | Models:get_metrics:154 - Class: MLPNet | MAPE train: 22.6140
+2026-03-30 20:14:25.482 | INFO     | Models:train_test_split:52 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-30 20:14:25.490 | INFO     | Models:__log_hyperparmeters__:75 - Class: MLPNet | hyperparams: {'epochs': 1000, 'lr': 0.01, 'verbose': 100}
+2026-03-30 20:14:28.502 | INFO     | Models:get_metrics:151 - Class: MLPNet | RMSE train: 289496.3186
+2026-03-30 20:14:28.502 | INFO     | Models:get_metrics:152 - Class: MLPNet | RMSE test: 332089.4310
+2026-03-30 20:14:28.502 | INFO     | Models:get_metrics:153 - Class: MLPNet | MAPE train: 19.5257
+2026-03-30 20:14:28.502 | INFO     | Models:get_metrics:154 - Class: MLPNet | MAPE train: 19.7751
+2026-03-30 20:14:38.800 | INFO     | Models:train_test_split:52 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-30 20:14:38.805 | INFO     | Models:__log_hyperparmeters__:75 - Class: MLPNet | hyperparams: {'epochs': 1000, 'lr': 0.01, 'verbose': 100}
+2026-03-30 20:14:41.239 | INFO     | Models:get_metrics:151 - Class: MLPNet | RMSE train: 329198.2879
+2026-03-30 20:14:41.239 | INFO     | Models:get_metrics:152 - Class: MLPNet | RMSE test: 355086.5341
+2026-03-30 20:14:41.239 | INFO     | Models:get_metrics:153 - Class: MLPNet | MAPE train: 20.5577
+2026-03-30 20:14:41.240 | INFO     | Models:get_metrics:154 - Class: MLPNet | MAPE train: 20.3589
+2026-03-30 20:14:49.711 | INFO     | Models:train_test_split:52 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-30 20:14:49.713 | INFO     | Models:__log_hyperparmeters__:75 - Class: MLPNet | hyperparams: {'epochs': 1000, 'lr': 0.01, 'verbose': 100}
+2026-03-30 20:14:51.529 | INFO     | Models:get_metrics:151 - Class: MLPNet | RMSE train: 699214.0316
+2026-03-30 20:14:51.529 | INFO     | Models:get_metrics:152 - Class: MLPNet | RMSE test: 639271.7661
+2026-03-30 20:14:51.529 | INFO     | Models:get_metrics:153 - Class: MLPNet | MAPE train: 56.6630
+2026-03-30 20:14:51.529 | INFO     | Models:get_metrics:154 - Class: MLPNet | MAPE train: 54.0867
+2026-03-30 20:15:03.300 | INFO     | Models:train_test_split:52 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-30 20:15:03.310 | INFO     | Models:__log_hyperparmeters__:75 - Class: MLPNet | hyperparams: {'epochs': 1000, 'lr': 0.01, 'verbose': 100}
+2026-03-30 20:15:06.430 | INFO     | Models:get_metrics:151 - Class: MLPNet | RMSE train: 316893.3626
+2026-03-30 20:15:06.430 | INFO     | Models:get_metrics:152 - Class: MLPNet | RMSE test: 352288.5913
+2026-03-30 20:15:06.430 | INFO     | Models:get_metrics:153 - Class: MLPNet | MAPE train: 20.9624
+2026-03-30 20:15:06.430 | INFO     | Models:get_metrics:154 - Class: MLPNet | MAPE train: 21.7844
+2026-03-30 20:21:15.443 | INFO     | Models:train_test_split:52 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-30 20:21:15.452 | INFO     | Models:__log_hyperparmeters__:75 - Class: MLPNet | hyperparams: {'epochs': 1000, 'lr': 0.01, 'verbose': 100}
+2026-03-30 20:21:18.200 | INFO     | Models:get_metrics:151 - Class: MLPNet | RMSE train: 299676.4359
+2026-03-30 20:21:18.200 | INFO     | Models:get_metrics:152 - Class: MLPNet | RMSE test: 337114.7301
+2026-03-30 20:21:18.202 | INFO     | Models:get_metrics:153 - Class: MLPNet | MAPE train: 19.2090
+2026-03-30 20:21:18.202 | INFO     | Models:get_metrics:154 - Class: MLPNet | MAPE train: 19.4532
+2026-03-30 20:21:30.885 | INFO     | Models:train_test_split:52 - Class: Catboost | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-30 20:21:30.885 | INFO     | Models:__log_hyperparmeters__:75 - Class: Catboost | hyperparams: {'iterations': 1000, 'depth': 5, 'verbose': 100}
+2026-03-30 20:22:06.269 | INFO     | Models:get_metrics:68 - Class: Catboost | RMSE train: 238873.5964
+2026-03-30 20:22:06.269 | INFO     | Models:get_metrics:69 - Class: Catboost | RMSE test: 264322.7230
+2026-03-30 20:22:06.270 | INFO     | Models:get_metrics:70 - Class: Catboost | MAPE train: 16.0822
+2026-03-30 20:22:06.270 | INFO     | Models:get_metrics:71 - Class: Catboost | MAPE train: 15.9937
+2026-03-30 20:22:06.317 | INFO     | Models:train_test_split:52 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-30 20:22:06.322 | INFO     | Models:__log_hyperparmeters__:75 - Class: MLPNet | hyperparams: {'epochs': 1000, 'lr': 0.01, 'verbose': 100}
+2026-03-30 20:22:08.856 | INFO     | Models:get_metrics:151 - Class: MLPNet | RMSE train: 321055.6173
+2026-03-30 20:22:08.856 | INFO     | Models:get_metrics:152 - Class: MLPNet | RMSE test: 350201.8906
+2026-03-30 20:22:08.856 | INFO     | Models:get_metrics:153 - Class: MLPNet | MAPE train: 20.0367
+2026-03-30 20:22:08.856 | INFO     | Models:get_metrics:154 - Class: MLPNet | MAPE train: 20.1162
+2026-03-30 20:24:17.044 | INFO     | Models:train_test_split:52 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-30 20:24:17.046 | INFO     | Models:__log_hyperparmeters__:75 - Class: MLPNet | hyperparams: {'epochs': 1000, 'lr': 0.01, 'verbose': 100}
+2026-03-30 20:25:23.014 | INFO     | Models:train_test_split:52 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-30 20:25:23.014 | INFO     | Models:__log_hyperparmeters__:75 - Class: MLPNet | hyperparams: {'epochs': 1000, 'lr': 0.01, 'verbose': 100}
+2026-03-30 20:28:24.148 | INFO     | Models:train_test_split:52 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-30 20:28:24.152 | INFO     | Models:__log_hyperparmeters__:75 - Class: MLPNet | hyperparams: {'epochs': 1000, 'lr': 0.01, 'verbose': 100}
+2026-03-30 20:28:48.214 | INFO     | Models:train_test_split:52 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-30 20:28:48.214 | INFO     | Models:__log_hyperparmeters__:75 - Class: MLPNet | hyperparams: {'epochs': 1000, 'lr': 0.01, 'verbose': 100}
+2026-03-30 20:30:00.205 | INFO     | Models:train_test_split:52 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-30 20:30:00.205 | INFO     | Models:__log_hyperparmeters__:75 - Class: MLPNet | hyperparams: {'epochs': 1000, 'lr': 0.01, 'verbose': 100}
+2026-03-30 20:30:41.732 | INFO     | Models:train_test_split:52 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-30 20:30:41.734 | INFO     | Models:__log_hyperparmeters__:75 - Class: MLPNet | hyperparams: {'epochs': 1000, 'lr': 0.01, 'verbose': 100}
+2026-03-30 20:30:44.442 | INFO     | Models:get_metrics:157 - Class: MLPNet | RMSE train: 1838045.1023
+2026-03-30 20:30:44.443 | INFO     | Models:get_metrics:158 - Class: MLPNet | RMSE test: 1852734.9193
+2026-03-30 20:30:44.443 | INFO     | Models:get_metrics:159 - Class: MLPNet | MAPE train: 98.0339
+2026-03-30 20:30:44.443 | INFO     | Models:get_metrics:160 - Class: MLPNet | MAPE train: 100.6340
+2026-03-30 20:31:07.175 | INFO     | Models:train_test_split:52 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-30 20:31:07.178 | INFO     | Models:__log_hyperparmeters__:75 - Class: MLPNet | hyperparams: {'epochs': 10000, 'lr': 0.01, 'verbose': 100}
+2026-03-30 20:31:34.466 | INFO     | Models:get_metrics:157 - Class: MLPNet | RMSE train: 1063984.4394
+2026-03-30 20:31:34.466 | INFO     | Models:get_metrics:158 - Class: MLPNet | RMSE test: 1081039.4860
+2026-03-30 20:31:34.466 | INFO     | Models:get_metrics:159 - Class: MLPNet | MAPE train: 72.1156
+2026-03-30 20:31:34.466 | INFO     | Models:get_metrics:160 - Class: MLPNet | MAPE train: 73.8728
+2026-03-30 20:31:58.975 | INFO     | Models:train_test_split:52 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-03-30 20:31:58.985 | INFO     | Models:__log_hyperparmeters__:75 - Class: MLPNet | hyperparams: {'epochs': 1000, 'lr': 0.01, 'verbose': 100}
+2026-03-30 20:32:01.504 | INFO     | Models:get_metrics:157 - Class: MLPNet | RMSE train: 310698.9978
+2026-03-30 20:32:01.504 | INFO     | Models:get_metrics:158 - Class: MLPNet | RMSE test: 346002.9299
+2026-03-30 20:32:01.504 | INFO     | Models:get_metrics:159 - Class: MLPNet | MAPE train: 19.4321
+2026-03-30 20:32:01.504 | INFO     | Models:get_metrics:160 - Class: MLPNet | MAPE train: 19.8832
