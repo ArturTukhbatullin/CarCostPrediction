@@ -341,3 +341,84 @@
 2026-03-30 20:32:01.504 | INFO     | Models:get_metrics:158 - Class: MLPNet | RMSE test: 346002.9299
 2026-03-30 20:32:01.504 | INFO     | Models:get_metrics:159 - Class: MLPNet | MAPE train: 19.4321
 2026-03-30 20:32:01.504 | INFO     | Models:get_metrics:160 - Class: MLPNet | MAPE train: 19.8832
+2026-04-02 14:22:53.442 | INFO     | Models:train_test_split:53 - Class: MLPReqgressor_sklearn | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-04-02 14:22:53.449 | INFO     | Models:__log_hyperparmeters__:76 - Class: MLPReqgressor_sklearn | hyperparams: {'max_iter': 1000, 'hidden_layer_sizes': (1,), 'learning_rate': 0.01}
+2026-04-02 14:23:39.291 | INFO     | Models:train_test_split:53 - Class: MLPReqgressor_sklearn | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-04-02 14:23:39.296 | INFO     | Models:__log_hyperparmeters__:76 - Class: MLPReqgressor_sklearn | hyperparams: {'max_iter': 1000, 'hidden_layer_sizes': (1,), 'learning_rate_init': 0.01}
+2026-04-02 14:26:56.381 | INFO     | Models:train_test_split:53 - Class: MLPReqgressor_sklearn | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-04-02 14:26:56.381 | INFO     | Models:__log_hyperparmeters__:76 - Class: MLPReqgressor_sklearn | hyperparams: {'max_iter': 1000, 'hidden_layer_sizes': (1,), 'learning_rate_init': 0.01}
+2026-04-02 14:54:21.256 | INFO     | Models:train_test_split:53 - Class: MLPReqgressor_sklearn | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-04-02 14:54:21.263 | INFO     | Models:__log_hyperparmeters__:76 - Class: MLPReqgressor_sklearn | hyperparams: {'max_iter': 1000, 'hidden_layer_sizes': (1,), 'learning_rate_init': 0.01}
+2026-04-02 14:54:21.478 | INFO     | Models:get_metrics:230 - Class: MLPReqgressor_sklearn | RMSE train: 521071.2209
+2026-04-02 14:54:21.480 | INFO     | Models:get_metrics:231 - Class: MLPReqgressor_sklearn | RMSE test: 481194.2722
+2026-04-02 14:54:21.480 | INFO     | Models:get_metrics:232 - Class: MLPReqgressor_sklearn | MAPE train: 51.0768
+2026-04-02 14:54:21.480 | INFO     | Models:get_metrics:233 - Class: MLPReqgressor_sklearn | MAPE train: 51.8864
+2026-04-02 14:58:46.417 | INFO     | Models:train_test_split:53 - Class: MLPReqgressor_sklearn | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-04-02 14:58:46.423 | INFO     | Models:__log_hyperparmeters__:76 - Class: MLPReqgressor_sklearn | hyperparams: {'max_iter': 1000, 'hidden_layer_sizes': (64,), 'learning_rate_init': 0.01}
+2026-04-02 14:58:47.078 | INFO     | Models:get_metrics:230 - Class: MLPReqgressor_sklearn | RMSE train: 369491.5668
+2026-04-02 14:58:47.078 | INFO     | Models:get_metrics:231 - Class: MLPReqgressor_sklearn | RMSE test: 377798.6173
+2026-04-02 14:58:47.078 | INFO     | Models:get_metrics:232 - Class: MLPReqgressor_sklearn | MAPE train: 28.9432
+2026-04-02 14:58:47.078 | INFO     | Models:get_metrics:233 - Class: MLPReqgressor_sklearn | MAPE train: 28.9675
+2026-04-02 15:50:06.138 | INFO     | Models:train_test_split:53 - Class: MLPReqgressor_sklearn | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-04-02 15:50:06.274 | INFO     | Models:__log_hyperparmeters__:76 - Class: MLPReqgressor_sklearn | hyperparams: {'max_iter': 1000, 'hidden_layer_sizes': (64,), 'learning_rate_init': 0.01}
+2026-04-02 15:50:07.073 | INFO     | Models:get_metrics:240 - Class: MLPReqgressor_sklearn | RMSE train: 367368.7520
+2026-04-02 15:50:07.074 | INFO     | Models:get_metrics:241 - Class: MLPReqgressor_sklearn | RMSE test: 376962.0804
+2026-04-02 15:50:07.074 | INFO     | Models:get_metrics:242 - Class: MLPReqgressor_sklearn | MAPE train: 20.5016
+2026-04-02 15:50:07.074 | INFO     | Models:get_metrics:243 - Class: MLPReqgressor_sklearn | MAPE train: 19.9772
+2026-04-02 15:51:11.875 | INFO     | Models:train_test_split:53 - Class: Catboost | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-04-02 15:51:11.875 | INFO     | Models:__log_hyperparmeters__:76 - Class: Catboost | hyperparams: {'iterations': 1000, 'depth': 5, 'verbose': 100}
+2026-04-02 15:52:02.224 | INFO     | Models:train_test_split:53 - Class: Catboost | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-04-02 15:52:02.224 | INFO     | Models:__log_hyperparmeters__:76 - Class: Catboost | hyperparams: {'iterations': 1000, 'depth': 5, 'verbose': 100}
+2026-04-02 15:52:52.989 | INFO     | Models:get_metrics:69 - Class: Catboost | RMSE train: 238873.5964
+2026-04-02 15:52:52.989 | INFO     | Models:get_metrics:70 - Class: Catboost | RMSE test: 264322.7230
+2026-04-02 15:52:52.989 | INFO     | Models:get_metrics:71 - Class: Catboost | MAPE train: 16.0822
+2026-04-02 15:52:52.989 | INFO     | Models:get_metrics:72 - Class: Catboost | MAPE train: 15.9937
+2026-04-02 16:02:47.005 | INFO     | Models:train_test_split:53 - Class: Catboost | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-04-02 16:02:47.005 | INFO     | Models:__log_hyperparmeters__:76 - Class: Catboost | hyperparams: {'iterations': 1000, 'depth': 5, 'verbose': 100}
+2026-04-02 16:03:46.335 | INFO     | Models:get_metrics:69 - Class: Catboost | RMSE train: 238873.5964
+2026-04-02 16:03:46.335 | INFO     | Models:get_metrics:70 - Class: Catboost | RMSE test: 264322.7230
+2026-04-02 16:03:46.335 | INFO     | Models:get_metrics:71 - Class: Catboost | MAPE train: 16.0822
+2026-04-02 16:03:46.335 | INFO     | Models:get_metrics:72 - Class: Catboost | MAPE train: 15.9937
+2026-04-02 16:05:00.089 | INFO     | Models:train_test_split:53 - Class: Catboost | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-04-02 16:05:00.089 | INFO     | Models:__log_hyperparmeters__:76 - Class: Catboost | hyperparams: {'iterations': 10, 'depth': 5, 'verbose': 100}
+2026-04-02 16:05:00.775 | INFO     | Models:get_metrics:69 - Class: Catboost | RMSE train: 321727.5165
+2026-04-02 16:05:00.775 | INFO     | Models:get_metrics:70 - Class: Catboost | RMSE test: 335719.3202
+2026-04-02 16:05:00.780 | INFO     | Models:get_metrics:71 - Class: Catboost | MAPE train: 23.0818
+2026-04-02 16:05:00.780 | INFO     | Models:get_metrics:72 - Class: Catboost | MAPE train: 22.6211
+2026-04-02 16:06:04.012 | INFO     | Models:train_test_split:53 - Class: Catboost | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-04-02 16:06:04.012 | INFO     | Models:__log_hyperparmeters__:76 - Class: Catboost | hyperparams: {'iterations': 10, 'depth': 5, 'verbose': 100}
+2026-04-02 16:06:04.711 | INFO     | Models:get_metrics:69 - Class: Catboost | RMSE train: 321727.5165
+2026-04-02 16:06:04.711 | INFO     | Models:get_metrics:70 - Class: Catboost | RMSE test: 335719.3202
+2026-04-02 16:06:04.711 | INFO     | Models:get_metrics:71 - Class: Catboost | MAPE train: 23.0818
+2026-04-02 16:06:04.711 | INFO     | Models:get_metrics:72 - Class: Catboost | MAPE train: 22.6211
+2026-04-02 16:06:25.694 | INFO     | Models:train_test_split:53 - Class: Catboost | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-04-02 16:06:25.694 | INFO     | Models:__log_hyperparmeters__:76 - Class: Catboost | hyperparams: {'iterations': 1000, 'depth': 5, 'verbose': 100}
+2026-04-02 16:07:05.007 | INFO     | Models:get_metrics:69 - Class: Catboost | RMSE train: 238873.5964
+2026-04-02 16:07:05.007 | INFO     | Models:get_metrics:70 - Class: Catboost | RMSE test: 264322.7230
+2026-04-02 16:07:05.007 | INFO     | Models:get_metrics:71 - Class: Catboost | MAPE train: 16.0822
+2026-04-02 16:07:05.007 | INFO     | Models:get_metrics:72 - Class: Catboost | MAPE train: 15.9937
+2026-04-02 16:08:21.096 | INFO     | Models:train_test_split:53 - Class: MLPReqgressor_sklearn | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-04-02 16:08:21.151 | INFO     | Models:__log_hyperparmeters__:76 - Class: MLPReqgressor_sklearn | hyperparams: {'max_iter': 1000, 'hidden_layer_sizes': (64,), 'learning_rate_init': 0.01}
+2026-04-02 16:08:21.970 | INFO     | Models:get_metrics:239 - Class: MLPReqgressor_sklearn | RMSE train: 367368.7520
+2026-04-02 16:08:21.979 | INFO     | Models:get_metrics:240 - Class: MLPReqgressor_sklearn | RMSE test: 376962.0804
+2026-04-02 16:08:21.980 | INFO     | Models:get_metrics:241 - Class: MLPReqgressor_sklearn | MAPE train: 20.5016
+2026-04-02 16:08:21.980 | INFO     | Models:get_metrics:242 - Class: MLPReqgressor_sklearn | MAPE train: 19.9772
+2026-04-02 16:09:58.266 | INFO     | Models:train_test_split:53 - Class: Catboost | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-04-02 16:09:58.266 | INFO     | Models:__log_hyperparmeters__:76 - Class: Catboost | hyperparams: {'iterations': 1000, 'depth': 5, 'verbose': 100}
+2026-04-02 16:10:36.410 | INFO     | Models:get_metrics:69 - Class: Catboost | RMSE train: 238873.5964
+2026-04-02 16:10:36.410 | INFO     | Models:get_metrics:70 - Class: Catboost | RMSE test: 264322.7230
+2026-04-02 16:10:36.410 | INFO     | Models:get_metrics:71 - Class: Catboost | MAPE train: 16.0822
+2026-04-02 16:10:36.411 | INFO     | Models:get_metrics:72 - Class: Catboost | MAPE train: 15.9937
+2026-04-02 16:10:36.441 | INFO     | Models:train_test_split:53 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-04-02 16:11:10.665 | INFO     | Models:train_test_split:53 - Class: MLPNet | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-04-02 16:11:10.713 | INFO     | Models:__log_hyperparmeters__:76 - Class: MLPNet | hyperparams: {'epochs': 1000, 'lr': 0.01, 'verbose': 100}
+2026-04-02 16:11:21.741 | INFO     | Models:get_metrics:167 - Class: MLPNet | RMSE train: 338397.2086
+2026-04-02 16:11:21.741 | INFO     | Models:get_metrics:168 - Class: MLPNet | RMSE test: 360562.4771
+2026-04-02 16:11:21.742 | INFO     | Models:get_metrics:169 - Class: MLPNet | MAPE train: 22.5877
+2026-04-02 16:11:21.742 | INFO     | Models:get_metrics:170 - Class: MLPNet | MAPE train: 22.5090
+2026-04-02 16:11:21.755 | INFO     | Models:train_test_split:53 - Class: MLPReqgressor_sklearn | test_size: 0.3, train_shape: (7245, 16), test_shape: (3105, 16)
+2026-04-02 16:11:21.811 | INFO     | Models:__log_hyperparmeters__:76 - Class: MLPReqgressor_sklearn | hyperparams: {'max_iter': 1000, 'hidden_layer_sizes': (64,), 'learning_rate_init': 0.01}
+2026-04-02 16:11:22.641 | INFO     | Models:get_metrics:219 - Class: MLPReqgressor_sklearn | RMSE train: 367368.7520
+2026-04-02 16:11:22.641 | INFO     | Models:get_metrics:220 - Class: MLPReqgressor_sklearn | RMSE test: 376962.0804
+2026-04-02 16:11:22.641 | INFO     | Models:get_metrics:221 - Class: MLPReqgressor_sklearn | MAPE train: 20.5016
+2026-04-02 16:11:22.641 | INFO     | Models:get_metrics:222 - Class: MLPReqgressor_sklearn | MAPE train: 19.9772
