@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>CarCostPredictor</title>
+</head>
+<body>
+
+<!-- Форма с параметрами авто -->
+<h2>Auto Parameters:</h2>
+<form method="post" action="/">
+    <p>name:<input type="text" name="name" value="{{ form_data.name[0] if form_data else 'Volkswagen Polo VI' }}" size="20" maxlength="100" /></p>
+    <p>millege:<input type="float" name="millege" value="{{ form_data.millege if form_data else 90000 }}" size="20" maxlength="100" /></p>
+    <p>engine_volume:<input type="float" name="engine_volume" value="{{ form_data.engine_volume if form_data else 1.6}}" size="20" maxlength="100" /></p>
+    <p>motor_power:<input type="text" name="motor_power" value="{{ form_data.motor_power if form_data else '90л.с.'}}" size="20" maxlength="100" /></p>
+    <p>fuel_type <select name="fuel_type">
+        <option value="бензин" {% if form_data and form_data.fuel_type == 'бензин' %}selected{% endif %}>бензин</option>
+        <option value="гибрид" {% if form_data and form_data.fuel_type == 'гибрид' %}selected{% endif %}>гибрид</option>
+        <option value="газ" {% if form_data and form_data.fuel_type == 'газ' %}selected{% endif %}>газ</option>
+        <option value="дизель" {% if form_data and form_data.fuel_type == 'дизель' %}selected{% endif %}>дизель</option>
+        <option value="электро" {% if form_data and form_data.fuel_type == 'электро' %}selected{% endif %}>электро</option>
+        <option value="missing" {% if form_data and form_data.fuel_type == 'missing' %}selected{% endif %}>missing</option>
+        </select> </p>
+    <p>body_type:<input type="text" name="body_type" value="{{ form_data.body_type if form_data else 'Седан'}}" size="20" maxlength="100" /></p>
+    <p>drive_type:<input type="text" name="drive_type" value="{{ form_data.drive_type if form_data else 'Передний привод'}}" size="20" maxlength="100" /></p>
+    <p>gearbox_type:<select name="gearbox_type">
+        <option value="Механика" {% if form_data and form_data.gearbox_type == 'Механика' %}selected{% endif %}>Механика</option>
+        <option value="Автомат" {% if form_data and form_data.gearbox_type == 'Автомат' %}selected{% endif %}>Автомат</option>
+        <option value="Робот" {% if form_data and form_data.gearbox_type == 'Робот' %}selected{% endif %}>Робот</option>
+        <option value="missing" {% if form_data and form_data.gearbox_type == 'missing' %}selected{% endif %}>missing</option>
+    </select></p>
+    <p>owners_num:
+      <select name="owners_num">
+        <option value="missing"{% if form_data and form_data.owners_num == 'missing' %}selected{% endif %}>missing</option>
+        <option value="1 владелец"{% if form_data and form_data.owners_num == '1 владелец' %}selected{% endif %}>1 владелец</option>
+        <option value="2 владельца"{% if form_data and form_data.owners_num == '2 владельца' %}selected{% endif %}>2 владельца</option>
+        <option value="3 владельца"{% if form_data and form_data.owners_num == '3 владельца' %}selected{% endif %}>3 владельца</option>
+        <option value="4 и более"{% if form_data and form_data.owners_num == '4 и более' %}selected{% endif %}>4 и более</option>
+    </select></p>
+    <p>configuration:<input type="text" name="configuration" value="missing" size="20" maxlength="100" /></p>
+    <p>steering_wheel_type:
+        <select name="steering_wheel_type">
+        <option value="missing" {% if form_data and form_data.steering_wheel_type == 'missing' %}selected{% endif %}>missing</option>
+        <option value="Левый" {% if form_data and form_data.steering_wheel_type == 'Левый' %}selected{% endif %}>Левый</option>
+        <option value="Правый" {% if form_data and form_data.steering_wheel_type == 'Правый' %}selected{% endif %}>Правый</option>
+    </select></p>
+    <p>color:<input type="text" name="color" value="{{ form_data.color if form_data else 'missing'}}" size="20" maxlength="100" /></p>
+    <p>saler_comment:<input type="text" name="saler_comment" value="{{ form_data.saler_comment if form_data else 'missing'}}" size="20" maxlength="100" /></p>
+    <div class="get_predict">
+        <button type="submit" name="get_predict" style="width: 200px; height: 20px;"> Get predict </button>
+    </div>
+</form>
+</body>
+
+<div class="result">
+    Predicted cost: 
+    {% if predicted_cost is not none %}
+        {{ predicted_cost }} ₽
+    {% else %}
+        Заполните форму и нажмите "Get predict"
+    {% endif %}
+</div>
+
+</html>
